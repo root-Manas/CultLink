@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-
+//uselayouteffect is used to avoid flickering of the page
 import QueryProvider from "@/lib/react-query/QueryProvider";
 import { Toaster } from "@/components/ui/toaster";
 import { PublicLayout, SignIn, SignUp } from "@/pages/public";
