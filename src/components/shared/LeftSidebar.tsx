@@ -17,14 +17,16 @@ const LeftSidebar = () => {
 
   return (
     <nav className="leftsidebar">
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-8">
         <Link to="/">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/auth_bg.jpg"
             alt="logo"
-            width={170}
-            height={36}
+            width={100}
+            height={100}
+            style={{ borderRadius: '50%', width: '80px', height: '80px' }}
           />
+          
         </Link>
         <Link to={`/profile/${user.id}`} className="flex gap-3 items-center">
           <img
